@@ -1,7 +1,5 @@
 package com.dalbot.challenges.api.dao.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,8 +10,6 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-@Entity
-@Table(name = "challenge")
 public class Challenge extends BaseEntity {
 
   private String title;
